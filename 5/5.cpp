@@ -7,8 +7,8 @@ using namespace std;
 
 void printStudentInfo() {
     setlocale(LC_ALL, "Russian");
-    std::cout << "Student: Áðàòåðñêèé Àëåêñàíäð Ìàêñèìîâè÷" << std::endl;
-    std::cout << "Group: Ì10-134ÁÂ-25" << std::endl;
+    std::cout << "Student: Ð‘Ñ€Ð°Ñ‚ÐµÑ€ÑÐºÐ¸Ð¹ ÐÐ»ÐµÐºÑÐ°Ð½Ð´Ñ€ ÐœÐ°ÐºÑÐ¸Ð¼Ð¾Ð²Ð¸Ñ‡" << std::endl;
+    std::cout << "Group: Ðœ10-134Ð‘Ð’-25" << std::endl;
     std::cout << "Task: task_1" << std::endl;
 }
 
@@ -83,4 +83,5 @@ int main() {
     printMap(coordinatesMap);
 
     return 0;
+
 }
