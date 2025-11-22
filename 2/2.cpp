@@ -8,7 +8,7 @@ void printStudentInfo() {
     setlocale(LC_ALL, "Russian");
     std::cout << "Student: Братерский Александр Максимович" << std::endl;
     std::cout << "Group: М10-134БВ-25" << std::endl;
-    std::cout << "Task: task_1" << std::endl;
+    std::cout << "Task: task_2" << std::endl;
 }
 
 void addStudent(map<string, bool>& students, const string& name, bool hasLicense) {
@@ -63,3 +63,4 @@ int main() {
     return 0;
 
 }
+
